@@ -25,16 +25,6 @@ Example output:
 Vending Soda
 ```
 
-#### Insufficient Funds
-
-When the respective vending code is entered and not enough money is supplied to the machine, the machine prints "Price: Item Price" where `Item Price` is the actual price of the item selected. The item price should always display two decimal places.
-
-Example output:
-
-```
-Price: $0.40
-```
-
 #### Returning Change
 
 When the respective vending code is entered and more money than is needed is supplied to the machine, the machine prints "Vending Item Name: Change Item Change" where `Item Name` is the name of the item selected and `Item Change` being the amount of change to be returned. The item's change should display two decimal places.
@@ -43,6 +33,16 @@ Example output:
 
 ```
 Vending Gum: Change $0.60
+```
+
+#### Insufficient Funds
+
+When the respective vending code is entered and not enough money is supplied to the machine, the machine prints "Feed me $X.XX more" where `$X.XX` is the extra amount needed to purchase the item. The item price should always display two decimal places.
+
+Example output:
+
+```
+Feed me $0.30 more
 ```
 
 #### Invalid Product
@@ -57,7 +57,7 @@ Invalid Selection: A08
 
 #### Manage Quantities
 
-The vending machine needs to keep track of how many of each item is in the machine. Whenever an item is selected, it's quantity should be reduced by 1.
+The vending machine needs to keep track of how many of each item is in the machine. Whenever an item is vended, it's quantity should be reduced by 1.
 
 #### Out of Stock Item
 
