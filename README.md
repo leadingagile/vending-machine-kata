@@ -8,12 +8,12 @@ In this simple kata, your task is to recreate the workings of a vending machine.
 
 There are three products available in this vending machine. Each product is able to be selected by sending the appropriate code to the machine.
 
-| Item  | Price | Code |
-|-------|-------|------|
-| Soda  | $1.00 | A01  |
-| Chips | $0.65 | A02  |
-| Candy | $0.85 | A03  |
-| Gum   | $0.40 | A04  |
+| Item  | Price | Code | Quantity |
+|:------|:-----:|:----:|:--------:|
+| Soda  | $1.00 | A01  | 10       |
+| Chips | $0.65 | A02  | 12       |
+| Candy | $0.85 | A03  | 8        |
+| Gum   | $0.40 | A04  | 3        |
 
 #### Exact Change
 
