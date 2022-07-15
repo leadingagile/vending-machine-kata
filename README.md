@@ -6,7 +6,7 @@ In this simple kata, your task is to recreate the workings of a vending machine.
 
 ### Select a Product
 
-There are three products available in this vending machine. Each product is able to be selected by sending the appropriate code to the machine.
+There are four products available in this vending machine. Each product is able to be selected by sending the appropriate code to the machine.
 
 | Item  | Price | Code | Quantity |
 |:------|:-----:|:----:|:--------:|
